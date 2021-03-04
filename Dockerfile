@@ -8,12 +8,12 @@ RUN apk --update add git sed less wget nano openssh && \
 
 WORKDIR /tmp
 
-RUN git clone --depth 1 "https://github.com/ChocoTaco1/TacoServer/" && cd ./TacoServer \
-    && git checkout "a03ff8f66ef7b3e12b3a8514aed8eecf76a50c6c"
+RUN git clone "https://github.com/ChocoTaco1/TacoServer/" && cd ./TacoServer \
+    &&  rm -rf .git
 WORKDIR /tmp
 
-RUN git clone --depth 1 "https://github.com/ChocoTaco1/TacoMaps/"  && cd ./TacoMaps \ 
-    && git checkout "908d952c04caf01091af70c3791b4606bc94395a"
+RUN git clone "https://github.com/ChocoTaco1/TacoMaps/"  && cd ./TacoMaps \
+    &&  rm -rf .git
 WORKDIR /tmp
 
 

@@ -16,3 +16,4 @@ wine --version
 
 echo "Running the Tribes 2 server"
 xvfb-run -a -w 5 wine Tribes2.exe -dedicated -mod Classic
+#xvfb-run -a -w 5 wineconsole Tribes2.exe -dedicated -mod Classic

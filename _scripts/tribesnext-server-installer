@@ -53,7 +53,7 @@ fi
 # -- download files
 get_files tribes2gsi.exe                      "https://www.the-construct.net/downloads/tribes2/"                "$TMPBASE"
 get_files TribesNext_rc2a.exe                 "https://www.tribesnext.com/files/"                               "$TMPBASE"
-get_files TribesNext_RC2_LinuxVersion.zip     "https://lutris.net/files/games/tribes-2/"                        "$TMPBASE"
+# get_files TribesNext_RC2_LinuxVersion.zip     "https://lutris.net/files/games/tribes-2/"                        "$TMPBASE"
 get_files ruby-1.9.0-2-i386-mswin32.zip       "https://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/unstable/"    "$TMPBASE"
 get_files classic_v152.zip                    "https://tribes2stats.com/files/mods/"                            "$TMPBASE"
 
